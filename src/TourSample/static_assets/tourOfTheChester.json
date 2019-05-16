@@ -1,7 +1,7 @@
 {
    "nav_icon": "chester_icon.png",
-   "firstPhotoId":"112379",
-   "firstPhotoRotation":150,
+   "firstPhotoId":"accueil",
+   "firstPhotoRotation":40,
    "soundEffects": {
       "navButton": {
          "onEnter": {
@@ -18,15 +18,34 @@
             "uri": "switch-flip.wav",
             "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
          }
-      },
-      "ambient": {
-         "uri": "cafe.wav",
-         "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
-         "loop": true,
-         "volume": 0.50
       }
+
    },
    "photos":{
+      "accueil":{
+         "rotationOffset": 0,
+         "uri":"accueil.jpg",
+         "tooltips":[
+            {
+               "id": "accueiltodetenter0",
+               "text":"Espace détente",
+               "rotationY": -24,
+               "linkedPhotoId":"detente-r0"
+            },
+            {
+               "id": "accueiltoamphi",
+               "text":"Grand Amphithéâtre",
+               "rotationY": -81,
+               "linkedPhotoId":"amphi"
+            },
+            {
+               "id": "accueiltor+1",
+               "text":"1er Etage",
+               "rotationY": 95,
+               "linkedPhotoId":"detente-r1"
+            }
+         ]
+      },
       "112362":{
          "rotationOffset": 0,
          "uri":"the-chester--v112362.prefilter.jpg",
