@@ -1,6 +1,6 @@
 {
    "nav_icon": "chester_icon.png",
-   "firstPhotoId":"detente-r1",
+   "firstPhotoId":"fablab",
    "firstPhotoRotation":40,
    "soundEffects": {
       "navButton": {
@@ -270,23 +270,78 @@
             }
          ]
       },
-      "112351":{
-         "rotationOffset": -80,
-         "uri":"the-chester--v112351.prefilter.jpg",
+      "M18":{
+         "rotationOffset": 0,
+         "uri":"M18.jpg",
          "tooltips":[
             {
-               "id": "gvjhkbjln",
-               "text":"Biergarten",
-               "rotationY": -102.793,
-               "linkedPhotoId":"112392"
+               "id": "M18tocouloir",
+               "text":"Couloir",
+               "rotationY": 45,
+               "linkedPhotoId":"couloir-r1"
+            }
+         ]
+      },
+      "M17":{
+         "rotationOffset": -100,
+         "uri":"M17.jpg",
+         "tooltips":[
+            {
+               "id": "M17tocouloir",
+               "text":"Couloir",
+               "rotationY": 165,
+               "linkedPhotoId":"couloir-r1"
+            }
+         ]
+      },
+      "M13":{
+         "rotationOffset": -100,
+         "uri":"M13.jpg",
+         "tooltips":[
+            {
+               "id": "M13tocouloir",
+               "text":"Couloir",
+               "rotationY": -130,
+               "linkedPhotoId":"couloir-r1"
             },
             {
-               "id": "sacjnacmacjln",
-               "text":"Biergarten",
-               "rotationY": 63.843,
-               "linkedPhotoId":"112355"
+               "id": "M13tofablab",
+               "text":"Fablab",
+               "rotationY": 118,
+               "linkedPhotoId":"fablab"
+            }
+         ]
+      },
+      "fablab":{
+         "rotationOffset": -100,
+         "uri":"fablab.jpg",
+         "tooltips":[
+            {
+               "id": "fablabtoM13",
+               "text":"Salle étudiants",
+               "rotationY": -80,
+               "linkedPhotoId":"M13"
+            }
+         ]
+      },
+      "patio":{
+         "rotationOffset": 80,
+         "uri":"patio-r1.jpg",
+         "tooltips":[
+            {
+               "id": "patiotocouloirr1",
+               "text":"Couloir",
+               "rotationY": 105,
+               "linkedPhotoId":"couloir-r1"
+            },
+            {
+               "id": "Patiotohall",
+               "text":"Hall",
+               "rotationY": 60,
+               "linkedPhotoId":"entree-r0"
             }
          ]
       }
+
    }
 }
