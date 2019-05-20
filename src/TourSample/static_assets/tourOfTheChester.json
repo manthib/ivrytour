@@ -1,6 +1,6 @@
 {
    "nav_icon": "chester_icon.png",
-   "firstPhotoId":"fablab",
+   "firstPhotoId":"accueil",
    "firstPhotoRotation":40,
    "soundEffects": {
       "navButton": {
@@ -83,19 +83,19 @@
             {
                "id": "couloirr0toM07",
                "text":"Labo Energie",
-               "rotationY": -95,
+               "rotationY": 64,
                "linkedPhotoId":"M07"
             },
             {
                "id": "couloirr0todetenter0",
                "text":"Espace détente",
-               "rotationY": 0,
+               "rotationY": 151,
                "linkedPhotoId":"detente-r0"
             },
             {
                "id": "couloirr0tohall",
                "text":"Hall",
-               "rotationY": 176,
+               "rotationY": -29,
                "linkedPhotoId":"entree-r0"
             }
          ]
@@ -241,31 +241,31 @@
             {
                "id": "couloirr1todetenter1",
                "text":"Espace détente",
-               "rotationY": 180,
+               "rotationY": 146,
                "linkedPhotoId":"detente-r1"
             },
             {
                "id": "couloirr1toM13",
                "text":"Salle étudiants",
-               "rotationY": -50,
+               "rotationY": -80,
                "linkedPhotoId":"M13"
             },
             {
                "id": "couloirr1toM17",
                "text":"Labo Electronique",
-               "rotationY": 124,
+               "rotationY": 65,
                "linkedPhotoId":"M17"
             },
             {
                "id": "couloirr1toM18",
                "text":"Salle projets",
-               "rotationY": 138,
+               "rotationY": 101,
                "linkedPhotoId":"M18"
             },
             {
                "id": "couloirtopatio",
                "text":"Patio",
-               "rotationY": 0,
+               "rotationY": -34,
                "linkedPhotoId":"patio"
             }
          ]
