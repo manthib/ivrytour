@@ -20,7 +20,7 @@ const TextBlockTooltip = (props) => {
     >
       <Text
         style={{
-          color: 'white',
+          color: '#e63b0d',
           fontSize: fontSize.title,
           width: tooltip.width * PPM,
         }}
@@ -40,7 +40,7 @@ const TextBlockTooltip = (props) => {
       )}
       <Text
         style={{
-          color: 'white',
+          color: '#e63b0d',
           fontSize: fontSize.text,
           width: tooltip.width * PPM,
         }}
@@ -51,6 +51,7 @@ const TextBlockTooltip = (props) => {
       && (
         <Text
           style={{
+            color: '#e63b0d',
             fontSize: fontSize.attrib,
             right: 0.02 * PPM,
             textAlign: 'right',

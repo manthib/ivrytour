@@ -45,7 +45,7 @@ const PanelImageTooltip = (props) => {
             />
             <Text
               style={{
-                color: 'white',
+                color: '#e63b0d',
                 fontSize: fontSize.title,
                 flex: 1,
                 height: fontSize.title + margin,
@@ -73,7 +73,7 @@ const PanelImageTooltip = (props) => {
       >
         <Text
           style={{
-            color: 'white',
+            color: '#e63b0d',
             fontSize: fontSize.text,
             textAlignVertical: 'center',
           }}
