@@ -15,32 +15,39 @@
  */
 import { VRInstance } from 'react-vr-web';
 import SimpleRaycaster from 'simple-raycaster';
+import * as OVRUI from 'ovrui';
 
 function init(bundle, parent, options) {
-  const vr = new VRInstance(bundle, 'TourSample', parent, {
-    // Show a gaze cursor.
-    // On affiche le curseur uniquement sur mobile ou casque VR.
-    raycasters: window.navigator.userAgent.includes('VR') || window.navigator.userAgent.includes('Mobile')
-      ? [
-        {
-          ...SimpleRaycaster,
-          ...{
-            getRayOrigin() {
-              return [0, 0, 0];
-            },
-            getRayDirection() {
-              return [0, 0, -1];
+  OVRUI.loadFont(
+    '../static_assets/BaronNeue.fnt',
+    '../static_assets/BaronNeue_sdf.png',
+  ).then((font) => {
+    const vr = new VRInstance(bundle, 'TourSample', parent, {
+      // Show a gaze cursor.
+      // On affiche le curseur uniquement sur mobile ou casque VR.
+      raycasters: window.navigator.userAgent.includes('VR') || window.navigator.userAgent.includes('Mobile')
+        ? [
+          {
+            ...SimpleRaycaster,
+            ...{
+              getRayOrigin() {
+                return [0, 0, 0];
+              },
+              getRayDirection() {
+                return [0, 0, -1];
+              },
             },
           },
-        },
-      ] : null,
-    cursorVisibility: 'visible',
-    ...options,
-  });
+        ] : null,
+      cursorVisibility: 'visible',
+      font,
+      ...options,
+    });
 
-  // Begin the animation loop
-  vr.start();
-  return vr;
+    // Begin the animation loop
+    vr.start();
+    return vr;
+  });
 }
 
 window.ReactVR = { init };

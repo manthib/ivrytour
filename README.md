@@ -14,3 +14,6 @@ If it gets stuck at `Loading dependency graph, done.` make sure to reload the pa
 ```
 npm run bundle
 ```
+
+## Créer une font en .fnt
+Voir: https://github.com/RadValentin/react-vr-fonts

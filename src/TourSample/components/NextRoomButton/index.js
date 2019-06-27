@@ -164,8 +164,8 @@ class NextRoomButton extends React.Component {
         && (
           <Text
             style={{
-              backgroundColor: 'black',
-              color: 'white',
+              backgroundColor: 'white',
+              color: '#e63b0d',
               fontSize: height * PPM * 0.7,
               height: height * PPM,
               marginLeft: 0.05 * PPM,
